@@ -1,0 +1,23 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+.left {
+  h1 {
+    margin: 50px;
+  }
+}
+.right {
+  align-content: flex-start;
+}
+.item {
+  min-width: 250px;
+  height: 250px;
+  text-align: center;
+  line-height: 250px;
+  color: #ffffff;
+  margin: 10px;
+}
+@media (max-width: 576px) {
+  .item {
+    width: 100%;
+    min-width: 100px;
+  }
+}
